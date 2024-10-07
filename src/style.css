@@ -1,0 +1,140 @@
+/* app.jsx */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    
+    
+}
+
+.counter{
+    margin-left: 35%;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.count1{
+    background-color: green;
+    color: white;
+    border:  0px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px 5px 0px 100px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 600;
+  
+}
+
+.count1:active{
+    background-color: bisque;
+    color: black;
+}
+
+.count2{
+    background-color: red;
+    color: white;
+    border:  0px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px 15px 0px 7px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.count2:active{
+    background-color: bisque;
+    color: black;
+}
+
+
+
+/* login form */
+
+.login-form{
+    border: 1px solid;
+    display: inline-block;
+    padding: 40px;
+    color: white;
+    background-color: rgb(61, 168, 168);
+
+}
+
+.complete-form{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+
+
+
+
+
+
+/* PasswordGenerator */
+
+.pswdbox{
+    height: 100vh;
+    background-color: black;
+}
+
+.pswdheading{
+    border: 1px, solid white;
+    background-color: gray;
+    display: inline-block;
+    padding: 60px 150px;
+    margin: 20px;
+}
+
+.pswd-tile{
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.pswdInput{
+    width: 500px;
+    height: 35px ;
+    border: 0px;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+}
+
+.pswdButton{
+    position: absolute;
+    padding: 6px 9px;
+    border: 0px;
+    color: white;
+    background-color: rgb(127, 193, 255);
+    font-weight: 500;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 3px;
+}
+
+.pswdheading label{
+    color: white;
+    border:  opx solid white ;
+    background-color: brown;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 19px;
+    
+
+}
+
+input[type="range"] {
+    margin-left: 280px;
+}
